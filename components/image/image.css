@@ -1,0 +1,22 @@
+.image-container{
+    padding: 0.5rem;
+}
+.image{
+    object-fit: cover;
+    width: 5rem;
+}
+
+.image-round{
+    border-radius: 50%;
+}
+.image-square{
+    border-radius: 1rem;
+}
+
+.image-wrapper{
+    width: 50vw;
+}
+
+.image-responsive{
+    width : 100%;
+}
