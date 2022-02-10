@@ -1,0 +1,24 @@
+.avatar-container{
+    display: flex;
+    justify-content: space-around;
+}
+.avatar{
+    margin: 1rem;
+    width: 3.5rem; /*default size*/
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sm{
+    width : 2rem;
+}
+
+.md{
+    width : 3.5rem;
+}
+.lg{
+    width : 5rem;
+}
+.xl{
+    width:7rem;
+}
