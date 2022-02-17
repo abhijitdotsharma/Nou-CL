@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto+Mono:wght@500&display=swap');
+
+
+:root{
+    --color-primary: white;
+    --background-color: #3B2D82;
+    --nav-color: #2E226A;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.landing-page{
+    height: 100vh;
+    background-color: var(--background-color);
+    color: var(--color-primary);
+    clip-path: polygon(0 0, 100% 0%, 100% 88%, 0 80%);
+}
+
+a{
+    color: var(--color-primary);
+    text-decoration: none; 
+    font-family: sans-serif;
+}
+
+/* Navbar */
+.nav{
+    background-color: var(--nav-color);
+    height: 60px;
+    padding-top: 20px;
+    text-align: end;
+}
+
+.nav-doc-link{
+    background-color: var(--color-primary);
+    color: black;
+    padding: 6px 10px;
+    margin-right: 14%;
+    margin-left: 20px;
+}
+
+/* All the text on the screen starts here i.e text-container */
+
+.text-container{
+    text-align: center;
+    margin-top: 15vh;
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.text-container h1{
+    font-size: 60px;
+    margin-bottom: 1.5vh;
+}
+
+.text-container h4{
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    margin-bottom: 5vh;
+}
+
+.text-container a{
+    color: rgb(255, 255, 255);
+    padding: 7.3px 18px;
+    border: 2px solid white;
+}
