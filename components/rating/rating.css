@@ -1,0 +1,7 @@
+.rating{
+    width: fit-content;
+}
+.rating i:hover{
+    cursor: pointer;
+    color: var(--color-primary);
+}
