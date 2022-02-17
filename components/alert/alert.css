@@ -1,16 +1,18 @@
 .alert{
     margin:2rem;
+    padding: 1rem;
     width: 400px;
-    display: flex;
-    border-radius: 0.5rem;
+    border-radius: 4px;
     font-size: 1.2rem;
     color: var(--color-black);
 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .alert-content{
+    color: var(--color-white);
     margin-left: 1.5rem;
     margin-right: auto;
     /*works along with justify-content here*/
