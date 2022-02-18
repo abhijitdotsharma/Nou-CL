@@ -16,7 +16,26 @@
     <title>Slider | nou-CL</title>
 </head>
 <body>
-    <div class="slider">
+  <main class="main" >
+    <aside class="side-nav">
+        <h4>Nou-CL</h4>
+        <ul>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="#">Avatar</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../card/card.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="#">Input</a></li>
+            <li><a href="../rating/rating.html">Rating</a></li>
+            <li><a class="focused" href="#">Slider</a></li>
+            <li><a class="last" href="../toast/toast.html">Toast</a></li>
+
+        </ul>
+    </aside>
+
+    <aside class="main-content">
+      <div class="slider">
         <input
           type="range"
           value="35"
@@ -26,6 +45,9 @@
           oninput="this.nextElementSibling.value = this.value"
         />
         <output>35</output>
-    </div>
+      </div>
+    </aside>
+</main>
+    
 </body>
 </html>
