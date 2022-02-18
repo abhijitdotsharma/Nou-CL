@@ -68,9 +68,10 @@
 /*Right side content*/
 
 .main-content{
+    border: 1px solid black;
     height: 150vh;
     margin-top: 1rem;
     margin-right: 1rem;
-    margin-left: 300px;
+    margin-left: 20rem;
     padding-left: 50px;
 }
