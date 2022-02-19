@@ -68,10 +68,26 @@
 /*Right side content*/
 
 .main-content{
-    border: 1px solid black;
     height: 150vh;
     margin-top: 1rem;
     margin-right: 1rem;
     margin-left: 20rem;
     padding-left: 50px;
+}
+
+.content-heading{
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.content-info{
+    padding: 1rem 0;
+    font-size: 1.4rem;
+}
+.content-image{
+    padding: 1rem 0;
+    width: 90%;
+}
+.content-image iframe{
+    width: 100%;
 }
