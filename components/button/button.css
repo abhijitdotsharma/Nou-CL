@@ -6,7 +6,7 @@ button {
 }
 
 .btn-container{
-    margin: 1rem;
+    margin:1rem 0;
 }
 
 .btn {
@@ -40,7 +40,7 @@ button {
 }
 
 .btn-primary-outlined{
-    border: 1px solid var(--color-primary);
+    border: 0.5px solid var(--color-primary);
     color: var(--color-black);
 }
 .btn-primary-outlined:hover{

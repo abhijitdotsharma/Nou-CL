@@ -1,9 +1,10 @@
 .badge-container{
+    margin-top: 2rem;
     display: flex;
     justify-content: space-around;
 }
 
-.badge{
+.bell-badge, .mail-badge, .cart-badge, .avatar-badge{
     width: min-content;
     position: relative;
 }
