@@ -1,0 +1,28 @@
+.toast{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 1rem;
+    width: 25%;
+    gap: 0.8rem;
+}
+
+.toast-position{
+    position: fixed;
+    top: 1.5rem;
+    right: 40%;
+}
+
+.toast-btn{
+    cursor: pointer;
+    color: var(--color-white);
+    border: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.toast-btn:hover{
+    opacity: 0.7;
+}
