@@ -1,5 +1,6 @@
 .rating{
     width: fit-content;
+    margin: 2rem 0;
 }
 .rating i:hover{
     cursor: pointer;
