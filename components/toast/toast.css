@@ -11,7 +11,7 @@
 
 .toast-position{
     position: fixed;
-    top: 1.5rem;
+    bottom: 2rem;
     right: 40%;
 }
 
