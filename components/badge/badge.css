@@ -18,9 +18,3 @@
     top: -6px;
     right: -4px;
 }
-
-.avatar.sm{
-    width: 2.5rem;
-    object-fit: cover;
-    border-radius: 50%;
-}
