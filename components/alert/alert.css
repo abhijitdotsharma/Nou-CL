@@ -23,14 +23,14 @@
 }
 
 .alert-success{
-    background-color: var(--color-success);
+    background-color: var(--success);
 }
 .alert-danger{
-    background-color: var(--color-danger);
+    background-color: var(--danger);
 }
 .alert-info{
-    background-color: var(--color-info);
+    background-color: var(--info);
 }
 .alert-warning{
-    background-color: var(--color-warning);
+    background-color: var(--warning);
 }

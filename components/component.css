@@ -11,13 +11,18 @@
 
 
 :root{
-    --main-color: #5b5bc4;
-    --color-primary : #FF3B30;
-    --color-secondary: grey;
-    --color-success: green;
-    --color-danger: red;
-    --color-warning: rgb(218, 218, 54);
-    --color-info: rgb(147, 147, 238);
-    --color-white: #Fff6ea;
+    --main-color: #3B2D82;
+    --color-white: #eee;
     --color-black: #282828;
+
+    --primary: #673ab7;
+    --secondary: #2962ff;
+    --success: #00e676;
+    --danger: #f44336;
+    --warning: #ffd600;
+    --default: #424242;
+    --link: #b3e5fc;
+    --info: #82b1ff;
+
+    
 }

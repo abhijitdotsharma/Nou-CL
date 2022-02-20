@@ -1,3 +1,9 @@
+:root{
+    --color-sidenav: #18283b;
+    --color-sidebar-link: #c6cfdc;
+    --color-link-hover: #0075ff;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +15,7 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    background-color: #18283b;
+    background-color: var(--color-sidenav);
     padding-top: 30px;
     font-family: sans-serif;
     overflow-y: scroll;
@@ -44,7 +50,7 @@
 
 .side-nav ul li a{
     text-decoration: none;
-    color: #c6cfdc;
+    color: var(--color-sidebar-link);
     font-weight: 500;
     border-radius: 5px;
     display: inline-block;
@@ -56,8 +62,8 @@
 }
 
 .side-nav ul li a:hover{
-    color: rgb(255, 255, 255);
-    background: #0075ff ;
+    color: white;
+    background: var(--color-link-hover) ;
     font-weight: 600;
     margin-left: 30px;
 }
