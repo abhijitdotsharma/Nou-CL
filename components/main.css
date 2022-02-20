@@ -79,10 +79,13 @@
     padding: 1rem 0;
     font-size: 2rem;
 }
-
 .content-info{
     padding: 1rem 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+}
+.content-sub-heading{
+    padding: 1rem 0;
+    font-size: 1.2rem;
 }
 .content-image{
     padding: 1rem 0;
