@@ -4,7 +4,7 @@ A lightweight CSS component library for your next project
 
 ## What is nou-CL ?
 - nou-CL is a CSS Component Library that has ready-made components you can use to build your website faster
-- It has 10 components with many variations to suit your requirement
+- It has 11 components with many variations to suit your requirement
 
 
 
@@ -38,6 +38,7 @@ crossorigin="anonymous" />
 * [Card](https://nou-cl.netlify.app/components/card/card.html)
 * [Image](https://nou-cl.netlify.app/components/image/image.html)
 * [Input](https://nou-cl.netlify.app/components/input/input.html)
+* [Navigation](https://nou-cl.netlify.app/components/navigation/navigation.html)
 * [Rating](https://nou-cl.netlify.app/components/rating/rating.html)
 * [Slider](https://nou-cl.netlify.app/components/slider/slider.html)
 * [Toast](https://nou-cl.netlify.app/components/toast/toast.html)
