@@ -41,9 +41,12 @@
 }
 
 .side-nav h4{
-    color: white;
     width: 85%;
     text-align: center;
+}
+
+.side-nav-header{
+    color: var(--color-white);
 }
 
 .side-nav ul li{
