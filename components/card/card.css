@@ -3,25 +3,26 @@
   padding: 1rem;
 }
 .card {
-  background-color: var(--color-white);
+  /* background-color: var(--color-white); */
 
   margin: auto;
   width: 15rem;
   display: flex;
   flex-direction: column;
+  position: relative; /*card__rating needs this*/
 }
 
-.card-image {
+.card__image {
   position: relative;
   width: 100%;
-  height: 280px;
+  height: 200px;
 }
-.card-image img {
+.card__image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.card-badge {
+.card__badge {
   background-color: var(--primary);
   color: var(--color-white);
   position: absolute;
@@ -31,12 +32,12 @@
 }
 
 /*card content*/
-.card-info {
+.card__info {
   display: flex;
   flex-direction: column;
 }
 
-.card-title {
+.card__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -45,25 +46,39 @@
   padding: 0.5rem;
 }
 
-.card-title i {
-  margin-top: 0.4rem;
+.card__rating{
+  color: var(--color-white);
+  font-weight: 600;
+  position: absolute;
+  top: 11.2rem;
+  right: 0.2rem;
 }
-.card-title i:hover {
+
+.fa-star{
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+.card__title .fa-heart {
+  margin-top: 0.26rem;
+  color: var(--primary);
+}
+.card__title .fa-heart:hover {
   opacity: 0.7;
 }
 
-.card-price {
+.card__price {
   display: flex;
   justify-content: flex-start;
   gap: 0.5rem;
   padding: 0.5rem;
 }
 
-.card-price .og-price {
+.card__price .price__original {
   text-decoration: line-through;
   color: grey;
 }
-.card-price .disc-percent {
+.card-price .price__discount {
   color: var(--success);
 }
 button {
